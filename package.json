@@ -1,0 +1,20 @@
+{
+  "name": "mock-aws-api",
+  "version": "1.0.0",
+  "description": "Studio Mock API",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "node -e \"require('./').app.listen(8000, console.log.bind(null, 'App listening on http://localhost:8000'))\"",
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^2.63.0"
+  }
+}

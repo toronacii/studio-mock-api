@@ -1,0 +1,14 @@
+service: studio-mock-api
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi: '*'
+      - cors: true
