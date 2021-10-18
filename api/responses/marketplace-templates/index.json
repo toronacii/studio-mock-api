@@ -1,0 +1,128 @@
+[
+  {
+    "id": 0,
+    "version": 0,
+    "versionName": "1.0",
+    "versionStudio": null,
+    "name": "Base Application",
+    "new": false,
+    "type": "TEMPLATE",
+    "shortDescription": "Basic Template",
+    "longDescription": "You can build one app using this basic configuration and add any feature template that you want.",
+    "organization": {
+      "privacyPolicy": "",
+      "name": "VeriTran"
+    },
+    "supportedDevices": [
+      "mobile"
+    ],
+    "logo": {
+      "path": "https://s3.amazonaws.com/veritran-cloud-marketplace-resources/31/resources/0000img_logo_ext_31.png",
+      "description": "main logo"
+    },
+    "metadata": null,
+    "baseUrl": null,
+    "resources": [
+      {
+        "path": "https://s3.amazonaws.com/veritran-cloud-marketplace-resources/images/basic_app_resources/default.jpg",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "version": 39,
+    "versionName": "1.8",
+    "versionStudio": "2.2",
+    "name": "Spring Wallet",
+    "new": false,
+    "type": "TEMPLATE",
+    "shortDescription": "Accelerate the creation of a Retail Mobile Banking app, with glossy UI, UX and business Logic.",
+    "longDescription": "Silver Retail Banking contains main features of a Retail Banking which allows your customers to have a productive application in very few steps and achieve the Time To Market of your organization. \n \n Main features are: \n - User authentication \n - Accounts statement and credit cards transactions. \n - Money Transfer 24/7 - Send money from anywhere, any time. \n - Credit Card Payment \n \n Main Benefits: \n - Template fully configurable and adaptable to the styles \n - Easily adapted to your particular business needs. \n - Full navigation through all the features with the best UI / UX experience - to improve its software in order to provide customers with the best possible user experience. \n - Pre-generated template with processes and example services. Log in and modify de Example service according to your business needs.  \n",
+    "organization": {
+      "privacyPolicy": "https://www.veritran.com/politica-de-privacidad/",
+      "name": "VeriTran"
+    },
+    "supportedDevices": [
+      "mobile"
+    ],
+    "logo": {
+      "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/ext_card_img/img_logo.png",
+      "description": null
+    },
+    "metadata": null,
+    "baseUrl": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/92/binary/",
+    "resources": [
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/92/resources/main_img.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/92/resources/preview_1.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/92/resources/preview_2.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/92/resources/preview_3.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/92/resources/preview_4.png",
+        "description": null
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "version": 48,
+    "versionName": "1.8",
+    "versionStudio": "2.5",
+    "name": "New App Banking",
+    "new": false,
+    "type": "TEMPLATE",
+    "shortDescription": "Retail Banking App with UX and business rules resolved.",
+    "longDescription": "Discover basic Mobile Banking functionalities that permit:\n\n - User authentication.\n - Checking on accounts, credit cards, and their respective movements and transactions.\n - Making transfers to their own accounts or to third parties.\n\n This template can be integrated into existing systems to provide greater functionalities to the user.\n\n It can also integrate certain complementary functionalities such as Push Notifications and Geolocation. \n\n #O{f-bold txt_big_2} Dependencies #O{} \n \n\"New App Banking\" app template depends on:\n\n - \"New component toolbox\" component type extension.\n - \"New Fingerprint Login\" Feature template.\n\n Dependencies you have not already subscribed will be added automatically when you subscribe to this extension.",
+    "organization": {
+      "privacyPolicy": "https://www.veritran.com/politica-de-privacidad/",
+      "name": "VeriTran"
+    },
+    "supportedDevices": [
+      "mobile"
+    ],
+    "logo": {
+      "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/ext_card_img/img_logo.png",
+      "description": null
+    },
+    "metadata": null,
+    "baseUrl": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/101/binary/",
+    "resources": [
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/101/resources/main_img.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/101/resources/preview_1.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/101/resources/preview_2.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/101/resources/preview_3.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/101/resources/preview_5.png",
+        "description": null
+      },
+      {
+        "path": "https://dev-veritran-cloud-marketplace-resources.s3.amazonaws.com/101/resources/preview_4.png",
+        "description": null
+      }
+    ]
+  }
+]

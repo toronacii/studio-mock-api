@@ -4,7 +4,7 @@
   "description": "Studio Mock API",
   "main": "handler.js",
   "scripts": {
-    "dev": "node -e \"require('./').app.listen(8000, console.log.bind(null, 'App listening on http://localhost:8000'))\"",
+    "start": "node -e \"require('./').app.listen(8000, console.log.bind(null, 'App listening on http://localhost:8000'))\"",
     "deploy": "serverless deploy"
   },
   "dependencies": {
