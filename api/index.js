@@ -16,9 +16,13 @@ api.get('/applicationgenerate/:id/generateAndPublish.json', ({ query }, res) => 
   res.json(response());
 });
 
-api.get('/VRTP/marketplace/extensions.json', ({ query }, res) => {
-  if (query.type === 'template') return res.json(require('./responses/marketplace-templates/index.json'));
+api.get('/:project/marketplace/extensions.json', ({ query }, res) => {
+  if (query.type === 'template') return res.json(require('./responses/marketplace/index.json'));
   return res.json({ response: 'You must send the query type=template' })
+})
+
+api.get('/:project/marketplace/extensions/:id/metadata.json', ({ query }, res) => {
+  res.json(require('./responses/marketplace/metadata.json'));
 })
 
 module.exports = api;

@@ -1,0 +1,28 @@
+{
+  "extensionId": 0,
+  "name": "Basic Configuration",
+  "description": "My Basic Configuration",
+  "initView": "V01",
+  "initSequence": "S000",
+  "appType": "1",
+  "appTypeCode": "SB",
+  "targetId": "1",
+  "themes": [
+    {
+      "code": "MODERN",
+      "name": "Basic Modern Theme",
+      "description": "Basic Modern Composition",
+      "styles": [
+        {
+          "code": "THM_BASIC",
+          "name": "Default Basic Theme",
+          "description": "Default Theme for Basic Configuration",
+          "previewImages": [
+            "https://s3.amazonaws.com/veritran-cloud-marketplace-resources/images/basic_app_resources/themeWide.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "versionId": 0
+}
