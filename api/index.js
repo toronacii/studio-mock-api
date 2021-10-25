@@ -25,4 +25,13 @@ api.get('/:project/marketplace/extensions/:id/metadata.json', ({ query }, res) =
   res.json(require('./responses/marketplace/metadata.json'));
 })
 
+api.get('/:project/transactions/list/index.json', ({ query }, res) => {
+  if (query.empty) return res.json({
+    statusCode: 200,
+    responseBody: [],
+    statusMessage: "OK"
+  });
+  res.json(require('./responses/transactions/index.json'));
+})
+
 module.exports = api;
