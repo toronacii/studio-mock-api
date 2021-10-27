@@ -34,4 +34,13 @@ api.get('/:project/transactions/list/index.json', ({ query }, res) => {
   res.json(require('./responses/transactions/index.json'));
 })
 
+api.get('/:project/external-services/list-with-methods.json', ({ query }, res) => {
+  if (query.empty) return res.json({
+    statusCode: 200,
+    responseBody: [],
+    statusMessage: "OK"
+  });
+  res.json(require('./responses/external-services/list-with-methods.json'));
+})
+
 module.exports = api;
