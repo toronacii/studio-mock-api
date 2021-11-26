@@ -1,0 +1,503 @@
+[
+  {
+    "id": 1386,
+    "name": "BUTTONS_BAR",
+    "description": "Buttons bar",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1387,
+    "name": "CHECK_LIST",
+    "description": "This component is used to validate the requirements of the password, this component use the TOKEN 750 like a input to evaluate",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1388,
+    "name": "FONT_SCREEN",
+    "description": "Screen background",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1389,
+    "name": "FOOTER_COMPONENT",
+    "description": "This component set a footer with 4 icons that permit follow different flows",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1390,
+    "name": "FULL2_LOGIN_COMPONENT",
+    "description": "Login component with user, password, forgot password and remember me",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1391,
+    "name": "FULL_LOGIN_COMPONENT",
+    "description": "Login component with user, password, forgot password and remember me",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1392,
+    "name": "HEADER_COMPONENT",
+    "description": "this component set a configurable header",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1393,
+    "name": "INPUT_BASIC2",
+    "description": "interface  to config the  input component\t\t\n",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1394,
+    "name": "INPUT_PASSWORD2",
+    "description": "Interface to config the input password component 2",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1395,
+    "name": "INPUT_PASSWORD_SM",
+    "description": "Interface to config the input password component - popup width",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1396,
+    "name": "I_INPUT_COMPONENT",
+    "description": "interface  to config the  input component\n\n\n",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1397,
+    "name": "I_INPUT_EMAIL_COMPONENT",
+    "description": "Interface to config the input email component",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1398,
+    "name": "I_INPUT_PASSWORD_COMPONENT",
+    "description": "Interface to config the input password component",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1399,
+    "name": "I_LOGIN_COMPONENT",
+    "description": "Login component with User and password",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1400,
+    "name": "LOGO2_COMPONENT",
+    "description": "LOGO2_COMPONENT",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1401,
+    "name": "LOGO3_COMPONENT",
+    "description": "LOGO3_COMPONENT",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1402,
+    "name": "LOGO_CLASS",
+    "description": "Logo for using with tokens",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1403,
+    "name": "LOGO_COMPONENT",
+    "description": "LOGO_COMPONENT",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1404,
+    "name": "OPTION_BAR",
+    "description": "Option Bar",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1405,
+    "name": "STEPS_H",
+    "description": "This components is used to show horizontal steps on a flow",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1406,
+    "name": "STEP_V",
+    "description": "This components is used to show vertical steps on a flow",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1407,
+    "name": "TEXT2_COMPONENT",
+    "description": "This component show a component that contain a second title and a text content.",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1408,
+    "name": "TEXT3_COMPONENT",
+    "description": "TEXT3_COMPONENT",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1409,
+    "name": "TEXT_COMPONENT",
+    "description": "This component show a component that contain a title and a text content.",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  },
+  {
+    "id": 1410,
+    "name": "USER_INPUT_COMPONENT",
+    "description": "USER_INPUT_COMPONENT",
+    "user": "ADMIN",
+    "lastModified": 1636735975000,
+    "new": false,
+    "icon": "",
+    "action": null,
+    "onload": null,
+    "type": "component",
+    "width": "100rw",
+    "height": "100rh",
+    "parameters": {
+      "inbound": [],
+      "outbound": [],
+      "events": [],
+      "messages": []
+    }
+  }
+]
+

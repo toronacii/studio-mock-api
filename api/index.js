@@ -43,4 +43,8 @@ api.get('/:project/external-services/list-with-methods.json', ({ query }, res) =
   res.json(require('./responses/external-services/list-with-methods.json'));
 })
 
+api.get('/:project/libinter/:id/list.json', (req, res) => {
+  res.json(require('./responses/interfaces/list.json'));
+})
+
 module.exports = api;
