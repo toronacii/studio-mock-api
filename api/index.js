@@ -21,11 +21,11 @@ api.get('/:project/marketplace/extensions.json', ({ query }, res) => {
   return res.json({ response: 'You must send the query type=template' })
 })
 
-api.get('/:project/marketplace/extensions/:id/metadata.json', ({ query }, res) => {
+api.get('/:context/marketplace/extensions/:id/metadata.json', ({ query }, res) => {
   res.json(require('./responses/marketplace/metadata.json'));
 })
 
-api.get('/:project/transactions/list/index.json', ({ query }, res) => {
+api.get('/:context/transactions/list/index.json', ({ query }, res) => {
   if (query.empty) return res.json({
     statusCode: 200,
     responseBody: [],
@@ -34,7 +34,7 @@ api.get('/:project/transactions/list/index.json', ({ query }, res) => {
   res.json(require('./responses/transactions/index.json'));
 })
 
-api.get('/:project/external-services/list-with-methods.json', ({ query }, res) => {
+api.get('/:context/external-services/list-with-methods.json', ({ query }, res) => {
   if (query.empty) return res.json({
     statusCode: 200,
     responseBody: [],
@@ -43,8 +43,12 @@ api.get('/:project/external-services/list-with-methods.json', ({ query }, res) =
   res.json(require('./responses/external-services/list-with-methods.json'));
 })
 
-api.get('/:project/libinter/:id/list.json', (req, res) => {
+api.get('/:context/libinter/:id/list.json', (req, res) => {
   res.json(require('./responses/interfaces/list.json'));
+})
+
+api.get('/:project/my-apps/application-summary.json', (req, res) => {
+  res.json(require('./responses/my-apps/application-summary.json'));
 })
 
 module.exports = api;
