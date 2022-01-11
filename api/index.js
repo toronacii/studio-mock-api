@@ -1,6 +1,8 @@
 const express = require('express');
 const api = express.Router();
 
+// base url: https://8gv77q8h94.execute-api.us-east-1.amazonaws.com
+
 api.get('/', (req, res) => res.json({ response: 'success!' }))
 
 api.get('/applicationgenerate/:id/generateAndPublish.json', ({ query }, res) => {
