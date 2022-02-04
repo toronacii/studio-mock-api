@@ -53,4 +53,22 @@ api.get('/:project/my-apps/application-summary.json', (req, res) => {
   res.json(require('./responses/my-apps/application-summary.json'));
 })
 
+api.get('/movements', ({ query }, res) => {
+  const movements = [{
+    accountId: 1
+  }, {
+    accountId: 2
+  }, {
+    accountId: 3
+  }];
+
+  if (!query.accountId) {
+    return res.json(movements);
+  }
+
+  const movement = movements.find(m => m.accountId === +query.accountId);
+
+  return res.json(movement);
+});
+
 module.exports = api;
